@@ -12,6 +12,11 @@ Deploy functions from pre-built zip files.
 Both of them.
 `make update-functions`
 
+Clean everything:
+`make clean`
+
+**Note**: Only macOS and Linux are supported.
+
 ## What is this solving?
 * Use local shared module that is on your GOPATH (no relative imports).
 * Vendor once. Use everywhere.
@@ -60,3 +65,6 @@ This is basically the directory structure after building.
     │   ...
     └── modules.txt
 ```
+
+## TODO
+* Automatically figure out local shared libs.
