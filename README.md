@@ -12,7 +12,7 @@ Deploy functions from pre-built zip files.
 Both of them.
 `make update-functions`
 
-Clean everything:
+Clean everything.
 `make clean`
 
 **Note**: Only macOS and Linux are supported.
@@ -42,8 +42,6 @@ This is basically the directory structure after building.
 .
 ├── Makefile
 ├── README.md
-├── build_functions.sh
-├── deploy_functions.sh
 ├── functions
 │   ├── HelloWorld
 │   │   ├── fn.go
